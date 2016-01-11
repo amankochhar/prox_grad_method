@@ -1,4 +1,5 @@
-function [B_hat,C,L,mu] = proxgrdopt(X,Y,g,lambda,eps,n_iter) % B_hat = proxgrdopt(X,y,g,lambda,eps,n_iter)
+function [B_hat,C,L,mu] = proxgrdopt(X,Y,g,lambda,eps,n_iter)
+% B_hat = proxgrdopt(X,y,g,lambda,eps,n_iter)
 
 % Process supplied inputs
 [nr_X,nc_X]=size(X);
